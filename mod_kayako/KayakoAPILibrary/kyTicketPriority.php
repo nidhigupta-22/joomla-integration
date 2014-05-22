@@ -94,7 +94,9 @@ class kyTicketPriority extends kyObjectBase {
 		$this->display_order = intval($data['displayorder']);
 		$this->fr_color_code = $data['frcolorcode'];
 		$this->bg_color_code = $data['bgcolorcode'];
-		$this->display_icon = $data['displayicon'];
+		if (isset($data['displayicon'])) {
+			$this->display_icon = $data['displayicon'];
+		}
 		$this->type = $data['type'];
 		$this->user_visibility_custom = ky_assure_bool($data['uservisibilitycustom']);
 		if ($this->user_visibility_custom && is_array($data['usergroupid'])) {

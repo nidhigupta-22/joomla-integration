@@ -18,12 +18,15 @@
     <disable_hints />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="mod_kayako" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="createTicket.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tmpl/createTicket.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="33" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0">
+            <state line="19" column="33" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1836">
               <folding />
             </state>
           </provider>
@@ -32,13 +35,8 @@
       <file leaf-file-name="default.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tmpl/default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1351600105000" expanded="true" signature="906:1176" placeholder="..." />
-                <marker date="1351600105000" expanded="true" signature="923:1161" placeholder="..." />
-                <marker date="1351600105000" expanded="true" signature="944:1032" placeholder="..." />
-                <marker date="1351600105000" expanded="true" signature="1053:1143" placeholder="..." />
-              </folding>
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -46,7 +44,7 @@
       <file leaf-file-name="editTicket.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tmpl/editTicket.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="33" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0">
+            <state line="19" column="33" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="2737">
               <folding />
             </state>
           </provider>
@@ -55,16 +53,25 @@
       <file leaf-file-name="mod_kayako.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mod_kayako.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fetchTicket.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="fetchTicket.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tmpl/fetchTicket.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="22" selection-start="1496" selection-end="1496" vertical-scroll-proportion="0.46712804">
+            <state line="29" column="38" selection-start="731" selection-end="731" vertical-scroll-proportion="-6.1153846" vertical-offset="334" max-vertical-offset="1513">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kyTicketPriority.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/KayakoAPILibrary/kyTicketPriority.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="98" column="9" selection-start="2087" selection-end="2087" vertical-scroll-proportion="-1.0907549" vertical-offset="2952" max-vertical-offset="4131">
               <folding />
             </state>
           </provider>
@@ -73,7 +80,7 @@
       <file leaf-file-name="form_success.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tmpl/form_success.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
               <folding />
             </state>
           </provider>
@@ -82,7 +89,7 @@
       <file leaf-file-name="helper.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/helper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="165" column="42" selection-start="5689" selection-end="5689" vertical-scroll-proportion="-55.0">
+            <state line="165" column="42" selection-start="5689" selection-end="5689" vertical-scroll-proportion="0.0" vertical-offset="2805" max-vertical-offset="3587">
               <folding />
             </state>
           </provider>
@@ -106,14 +113,15 @@
         <option value="$PROJECT_DIR$/tmpl/editTicket.php" />
         <option value="$PROJECT_DIR$/helper.php" />
         <option value="$PROJECT_DIR$/tmpl/fetchTicket.php" />
+        <option value="$PROJECT_DIR$/KayakoAPILibrary/kyTicketPriority.php" />
       </list>
     </option>
   </component>
-  <component name="PhpDebugGeneral" ignore_connections_through_unregistered_servers="true" remote_validate_breakpoints_with_file_exists="true" />
+  <component name="PhpDebugGeneral" ignore_connections_through_unregistered_servers="true" />
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="450" />
-    <option name="y" value="25" />
+    <option name="x" value="1072" />
+    <option name="y" value="111" />
     <option name="width" value="1968" />
     <option name="height" value="1328" />
   </component>
@@ -185,8 +193,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="preferences.fileTypes" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <list size="0" />
@@ -201,14 +209,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="450" y="25" width="1968" height="1328" extended-state="0" />
+    <frame x="1072" y="111" width="1968" height="1328" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1383975" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13821138" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -227,173 +236,122 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_NEW_TODO" value="true" />
     <option name="myTodoPanelSettings">
-      <value>
-        <are-packages-shown value="false" />
-        <are-modules-shown value="false" />
-        <flatten-packages value="false" />
-        <is-autoscroll-to-source value="false" />
-      </value>
+      <TodoPanelSettings />
     </option>
-    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
-    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
-    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
-    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
-    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
-    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
-    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
-    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
-    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
-    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
-    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
-    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
-    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
-    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
-    <option name="ACTIVE_VCS_NAME" />
-    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
-    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
-    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
-    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tmpl/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1351600105000" expanded="true" signature="906:1176" placeholder="..." />
-            <marker date="1351600105000" expanded="true" signature="923:1161" placeholder="..." />
-            <marker date="1351600105000" expanded="true" signature="944:1032" placeholder="..." />
-            <marker date="1351600105000" expanded="true" signature="1053:1143" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tmpl/editTicket.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="33" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0">
+        <state line="19" column="33" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mod_kayako.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tmpl/fetchTicket.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="34" selection-start="1540" selection-end="1540" vertical-scroll-proportion="0.0">
+        <state line="51" column="34" selection-start="1540" selection-end="1540" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tmpl/form_success.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/helper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="165" column="42" selection-start="5689" selection-end="5689" vertical-scroll-proportion="0.0">
+        <state line="165" column="42" selection-start="5689" selection-end="5689" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tmpl/createTicket.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="21" selection-start="1446" selection-end="1446" vertical-scroll-proportion="0.0">
+        <state line="44" column="21" selection-start="1446" selection-end="1446" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tmpl/fetchTicket.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="716" selection-end="1059" vertical-scroll-proportion="0.0">
+        <state line="30" column="0" selection-start="716" selection-end="1059" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/helper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="5" selection-start="2130" selection-end="2130" vertical-scroll-proportion="0.0">
+        <state line="76" column="5" selection-start="2130" selection-end="2130" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tmpl/form_success.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tmpl/default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1351600105000" expanded="true" signature="906:1176" placeholder="..." />
-            <marker date="1351600105000" expanded="true" signature="923:1161" placeholder="..." />
-            <marker date="1351600105000" expanded="true" signature="944:1032" placeholder="..." />
-            <marker date="1351600105000" expanded="true" signature="1053:1143" placeholder="..." />
-          </folding>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mod_kayako.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tmpl/createTicket.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="33" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0">
+        <state line="19" column="33" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tmpl/editTicket.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="33" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0">
+        <state line="19" column="33" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/helper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="165" column="42" selection-start="5689" selection-end="5689" vertical-scroll-proportion="-55.0">
+        <state line="165" column="42" selection-start="5689" selection-end="5689" vertical-scroll-proportion="0.0" vertical-offset="2805" max-vertical-offset="3587">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tmpl/fetchTicket.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="22" selection-start="1496" selection-end="1496" vertical-scroll-proportion="0.46712804">
+        <state line="29" column="38" selection-start="731" selection-end="731" vertical-scroll-proportion="-6.1153846" vertical-offset="334" max-vertical-offset="1513">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KayakoAPILibrary/kyTicketPriority.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="9" selection-start="2087" selection-end="2087" vertical-scroll-proportion="-1.0907549" vertical-offset="2952" max-vertical-offset="4131">
           <folding />
         </state>
       </provider>
