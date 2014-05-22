@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+        type="module"
+        version="3.0"
+        client="site"
+        method="upgrade">
+            <name>Kayako</name>
+            <author>Rahul Bhattacharya</author>
+            <creationDate>October 2012</creationDate>
+            <copyright>Copyright (C) 2005 - 2012 Open Source Matters. All rights reserved.</copyright>
+            <license>GNU General Public License version 2 or later;</license>
+            <authorEmail>rahul.bhattacharya@kayako.com</authorEmail>
+            <authorUrl>www.kayako.com</authorUrl>
+            <version>3.0.0</version>
+            <description>This module facilitates Ticket Submission from websites developed on Joomla CMS.</description>
+            <files>
+                <filename>mod_kayako.xml</filename>
+                <filename module="mod_kayako">mod_kayako.php</filename>
+                <filename>index.html</filename>
+                <filename>helper.php</filename>
+                <filename>tmpl/createTicket.php</filename>
+                <filename>tmpl/default.php</filename>
+                <filename>tmpl/fetchTicket.php</filename>
+                <filename>tmpl/editTicket.php</filename>
+                <filename>tmpl/form_success.php</filename>
+                <filename>tmpl/index.html</filename>
+            </files>
+            <config>
+                <fields name="params">
+                    <fieldset name="basic">
+                        <field
+                                name="apikey"
+                                type="text"
+                                label="API Key :"
+                                description="Please Enter the API Key"
+                                rows="5"
+                                cols="500" />
+                        <field
+                                name="secretkey"
+                                type="text"
+                                label="Secret Key :"
+                                description="Please Enter the Secret Key"
+                                rows="5"
+                                cols="500" />
+
+                        <field
+                                name="apiurl"
+                                type="text"
+                                label="API URL :"
+                                description="Please Enter the API URL"
+                                rows="5"
+                                cols="500" />
+                    </fieldset>
+                </fields>
+            </config>
+        </extension>
