@@ -1,15 +1,13 @@
 <?php
 /**
- * Created by JetBrains PhpStorm.
- * User: rahulbhattacharya
- * Date: 10/16/12
- * Time: 11:42 AM
- * To change this template use File | Settings | File Templates.
+ * @copyright      2001-2015 Kayako
+ * @license        https://www.freebsd.org/copyright/freebsd-license.html
+ * @link           https://github.com/kayako/joomla-integration
  */
 
 defined('_JEXEC') or die;
 ?>
 
 <div class="<?php echo $params->get('moduleclass_sfx'); ?>"
-    <?php  printf("The ticket was created and its ID is: %s\n", $ticket_mask_id); ?>
+<?php printf("The ticket was created and its ID is: %s\n", $ticket_mask_id); ?>
 </div>

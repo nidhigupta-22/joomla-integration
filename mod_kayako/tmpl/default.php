@@ -1,39 +1,26 @@
 <?php
 /**
- * ###############################################
- *
- * Kayako Module
- * _______________________________________________
- *
- * @author        Rahul Bhattacharya
- *
- * @package       mod_kayako
- * @copyright    Copyright (c) 2001-2012, Kayako
- * @license      http://www.kayako.com/license
- * @link        http://www.kayako.com
- *
- * ###############################################
+ * @copyright      2001-2015 Kayako
+ * @license        https://www.freebsd.org/copyright/freebsd-license.html
+ * @link           https://github.com/kayako/joomla-integration
  */
 
 defined('_JEXEC') or die;
 
-$input = JFactory::getApplication()->input;
-$id    = $input->get('id', null);
-
-if ($id == 'fetch') {
-    require JModuleHelper::getLayoutPath('mod_kayako', $params->get('layout', 'fetchTicket'));
-} else if ($id == 'create') {
-    require JModuleHelper::getLayoutPath('mod_kayako', $params->get('layout', 'createTicket'));
-} else if ($id != null) {
-    require JModuleHelper::getLayoutPath('mod_kayako', $params->get('layout', 'editTicket'));
-} else if ($id == null) {
-    echo '<div>
+if ($_REQUEST['ticketid'] == 'fetch') {
+	require JModuleHelper::getLayoutPath('mod_kayako', $params->get('layout', 'fetchTicket'));
+} else if ($_REQUEST['ticketid'] == 'create') {
+	require JModuleHelper::getLayoutPath('mod_kayako', $params->get('layout', 'createTicket'));
+} else if ($_REQUEST['ticketid'] != null) {
+	require JModuleHelper::getLayoutPath('mod_kayako', $params->get('layout', 'editTicket'));
+} else if ($_REQUEST['ticketid'] == null) {
+	echo '<div>
             <ul>
                 <li>
-                    <a href="index.php?id=fetch">View Tickets</a>
+                    <a href="index.php?ticketid=fetch">View Tickets</a>
                 </li>
                 <li>
-                    <a href="index.php?id=create">Create Ticket</a>
+                    <a href="index.php?ticketid=create">Create Ticket</a>
                 </li>
             </ul>
         </div>';
