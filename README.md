@@ -11,5 +11,6 @@ Users can create tickets from Joomla based website.
 Users can view tickets in Native Joomla UI.
 Users can reply or update tickets
 Supported versions
+
 Kayako: v4.51.1891 and above
 Joomla: v3.0.0 and above
